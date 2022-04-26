@@ -1,0 +1,323 @@
+body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.back-color{
+    width: 600px;
+    height: 800px;
+    border-radius: 0 0 60% 40%/ 0 0 30% 10%;
+    background-image: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%) );
+}
+
+.phone {
+    width: 350px;
+    height: 600px;
+    background-color: hsl(270, 20%, 96%);
+    z-index: 3;
+    position: relative;
+    border-radius: 40px;
+    bottom: 600px;
+    left: 520px;
+}
+
+span {
+    font-family: 'Rubik', sans-serif;
+    padding-top: 50px;
+    padding-left: 20px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.portfolio {
+    position: relative;
+    bottom: 580px;
+    height: 100px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 30px 30px 10px 10px;
+    background-image: linear-gradient(to left,  hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+.portfolio img {
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+.name h3 {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: 'Rubik',sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.name p {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    color: hsl(276, 100%, 81%);
+}
+
+.dots {
+    line-height: 5px;
+    margin-left: 60px;
+}
+
+.phonetop {
+    width: 200px;
+    height: 100px;
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    bottom: 690px;
+    left: 600px;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.main-container {
+    margin: 0;
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    z-index: 1;
+}
+
+.chat{
+    font-family: 'Rubik',sans-serif;
+}
+
+.left-chat {
+    color: hsl(276, 55%, 52%);
+    position: absolute;
+    font-size: 12px;
+    bottom: 345px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.left-chat p{
+    padding: 10px;
+}
+
+.dog-images img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.dog-images {
+    position: absolute;
+    bottom: 270px;
+    left: 125px;
+}
+
+.right-chat {
+    color: hsl(271, 15%, 43%);
+    position: absolute;
+    bottom: 180px;
+    left: 150px;
+}
+
+.can {
+    padding-left: 70px;
+}
+
+.right-chat p{
+    font-size: 12px;
+}
+
+.left-chat2 {
+    color: hsl(276, 55%, 52%);
+    position: absolute;
+    font-size: 12px;
+    bottom: 100px;
+    padding-left: 40px;
+}
+
+.time1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    border-radius: 20px 20px 20px 10px;
+    background-image: linear-gradient(to left,  hsl(293, 100%, 63%),  hsl(264, 100%, 61%));
+}
+
+.time1 p {
+    color: hsl(270, 3%, 76%);
+    font-family: 'Rubik',sans-serif;
+}
+
+.time1 h2 {
+    font-family: 'Rubik',sans-serif;
+    color: white;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.time2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    border-radius: 20px 20px 20px 10px;
+    background-image: linear-gradient(to left,  hsl(293, 100%, 63%),  hsl(264, 100%, 61%));
+}
+
+.time2 p {
+    color: hsl(270, 3%, 76%);
+    font-family: 'Rubik',sans-serif;
+}
+
+.time2 h2 {
+    font-family: 'Rubik',sans-serif;
+    color: white;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.circle1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: hsl(277, 15%, 65%);
+    margin: 20px;
+}
+
+
+.circle2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: hsl(277, 15%, 65%);
+    margin: 20px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+}
+
+.type_msg{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(218, 226, 226);
+}
+
+.type_msg p {
+    font-family: 'Rubik', sans-serif;
+    color: hsl(270, 3%, 76%);
+    margin-left: 10px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    background-color: hsl(271, 36%, 24%) ;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.btn a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.main-container h1{
+    font-family: 'Rubik', sans-serif;
+    color: hsl(271, 36%, 24%);
+    text-align: left;
+    font-size: 60px;
+}
+
+.main-container p {
+    font-family: 'Rubik', sans-serif ;
+    color: hsl(270, 7%, 64%);
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .back-color{
+        width: 300px;
+        height: 500px;
+        border-radius: 0 0 60% 40%/ 0 0 30% 10%;
+        background-image: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%) );
+    }
+
+    .phone {
+        width: 350px;
+        height: 600px;
+        background-color: hsl(270, 20%, 96%);
+        z-index: 3;
+        position: relative;
+        border-radius: 40px;
+        bottom: 400px;
+        left: 120px;
+    }
+    
+    .pp {
+        z-index: 0;
+    }
+
+    .main-container {
+        margin: 0;
+        position: absolute;
+        top: 900px;
+        left: 100px;
+        z-index: 1;
+    }
+
+    .main-container h1 {
+        text-align: center;
+    }
+
+    .main-container p {
+        text-align: center;
+    }
+    
+    .attribution {
+        position: absolute;
+        top: 1500px;
+        left: 150px;
+    }
+
+    .phonetop {
+        width: 200px;
+        height: 50px;
+        background-color:rgb(255, 255, 255);
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        border-radius: 20px;
+        z-index: 10;
+    }
+}
